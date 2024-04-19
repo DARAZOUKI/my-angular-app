@@ -1,0 +1,8 @@
+/* Stilar för sidfoten (footer) */
+footer {
+    text-align: center;
+    background-color: #ee9561;
+    ;
+    color: #050505;
+    padding: 10px;
+  }

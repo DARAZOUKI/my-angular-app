@@ -1,0 +1,16 @@
+<!-- conversion -->
+
+<h2>Length Conversion</h2>
+<div>
+  <label for="meters">Meters:</label>
+  <input type="number" id="meters" [(ngModel)]="meters" (input)="convertLength()">
+  <span>feet: {{ feet }}</span>
+</div>
+
+<h2>Temperature Conversion</h2>
+<div>
+  <label for="celsius">Celsius:</label>
+  <input type="number" id="celsius" [(ngModel)]="celsius" (input)="convertTemperature()">
+  <span>Fahrenheit: {{ fahrenheit }}</span>
+</div>
+

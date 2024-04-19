@@ -1,0 +1,22 @@
+/* home.component.css */
+
+.home-container {
+    background-image: url('/assets/Angular.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #060606; /* Set text color to white for better contrast */
+    height: 100vh;
+  }
+  
+  .home-container h2 {
+    font-size: 24px;
+    color: #c25304; /* Set text color to white for better contrast */
+  }
+  
+  .home-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #060606; /* Set text color to white for better contrast */
+  }
+  
