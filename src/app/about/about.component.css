@@ -27,4 +27,23 @@
     list-style-type: disc;
     margin-left: 20px;
   }
+  /* Responsive styles */
+@media screen and (max-width: 768px) {
+    .about-container {
+      padding: 10px;
+    }
+    
+    .about-container h2 {
+      font-size: 20px;
+    }
+    
+    .about-container h3 {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+    
+    .about-container p {
+      font-size: 14px;
+    }
+  }
   

@@ -1,12 +1,10 @@
 /* home.component.css */
 
 .home-container {
-    background-image: url('/assets/Angular.jpg');
-    background-size: cover;
-    background-position: center;
+   
     padding: 20px;
     color: #060606; /* Set text color to white for better contrast */
-    height: 100vh;
+   
   }
   
   .home-container h2 {
@@ -19,4 +17,24 @@
     line-height: 1.5;
     color: #060606; /* Set text color to white for better contrast */
   }
-  
+  .home-image {
+    max-width: 100%; /* Ensure image doesn't overflow its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 50px; /* Add some space between text and image */
+  }
+  /* Responsive styles */
+@media screen and (max-width: 768px) {
+
+  .home-container h2 {
+    font-size: 20px; /* Decrease font size for heading on smaller screens */
+  }
+
+  .home-container p {
+    font-size: 14px; 
+  }
+  .home-image {
+    max-width: 100%; /* Ensure image doesn't overflow its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 50px; /* Add some space between text and image */
+  }
+}
